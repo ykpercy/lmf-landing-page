@@ -17,7 +17,6 @@ const baseSiteConfig = {
       name: "limifin.com",
       url: "https://limifin.com",
       twitter: 'https://x.com/yang_percy68670',
-      github: 'https://github.com/ykpercy',
     }
   ],
   creator: '@ykpercy',
