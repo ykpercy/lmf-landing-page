@@ -11,12 +11,11 @@ const baseSiteConfig = {
   url: "https://limifin.com",
   ogImage: "https://landingpage.weijunext.com/og.png",
   metadataBase: '/',
-  keywords: ["landing page boilerplate", "landing page template", "awesome landing page", "next.js landing page"],
+  keywords: ["financial reports", "stock screener", "stock", "portfolio", "financial data"],
   authors: [
     {
-      name: "limifin",
+      name: "limifin.com",
       url: "https://limifin.com",
-      twitter: 'https://twitter.com/weijunext',
     }
   ],
   creator: '@ykpercy',
