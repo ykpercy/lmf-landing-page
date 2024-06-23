@@ -1,7 +1,6 @@
 import { SiteConfig } from "@/types/siteConfig";
-import { BsGithub, BsTwitterX } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
-import { SiJuejin } from "react-icons/si";
 
 const OPEN_SOURCE_URL = 'https://github.com/ykpercy/lmf-landing-page/'
 
@@ -34,13 +33,10 @@ const baseSiteConfig = {
   },
   headerLinks: [
     { name: 'repo', href: OPEN_SOURCE_URL, icon: BsGithub },
-    { name: 'twitter', href: "https://twitter.com/weijunext", icon: BsTwitterX },
   ],
   footerLinks: [
-    { name: 'email', href: "mailto:heupercy@gmail.com", icon: MdEmail },
-    { name: 'twitter', href: "https://twitter.com/weijunext", icon: BsTwitterX },
+    { name: 'email', href: "mailto:ykpercy@qq.com", icon: MdEmail },
     { name: 'github', href: "https://github.com/ykpercy/", icon: BsGithub },
-    { name: 'juejin', href: "https://juejin.cn/user/26044008768029", icon: SiJuejin },
   ],
   footerProducts: [
     { url: 'https://weijunext.com/', name: 'J实验室' },
